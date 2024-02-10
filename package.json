@@ -5,13 +5,17 @@
     "dev": "next dev",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
-    "start": "next start"
+    "start": "next start",
+    "seed": "node -r dotenv/config ./scripts/seed.js"
   },
   "dependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
     "@heroicons/react": "^2.0.18",
     "@tailwindcss/forms": "^0.5.7",
     "@types/node": "20.5.7",
-    "@vercel/postgres": "^0.5.0",
+    "@vercel/postgres": "^0.5.1",
     "autoprefixer": "10.4.15",
     "bcrypt": "^5.1.1",
     "clsx": "^2.1.0",
