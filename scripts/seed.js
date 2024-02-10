@@ -177,3 +177,15 @@ main().catch((err) => {
     err,
   );
 });
+
+
+/**
+ * 
+ * POSTGRES_URL="postgres://default:YQRt6fgWU3FI@ep-yellow-silence-a4ry0ziw-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"
+POSTGRES_PRISMA_URL="postgres://default:YQRt6fgWU3FI@ep-yellow-silence-a4ry0ziw-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require&pgbouncer=true&connect_timeout=15"
+POSTGRES_URL_NO_SSL="postgres://default:YQRt6fgWU3FI@ep-yellow-silence-a4ry0ziw-pooler.us-east-1.aws.neon.tech:5432/verceldb"
+POSTGRES_URL_NON_POOLING="postgres://default:YQRt6fgWU3FI@ep-yellow-silence-a4ry0ziw.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"
+POSTGRES_USER="default"
+POSTGRES_HOST="ep-yellow-silence-a4ry0ziw-pooler.us-east-1.aws.neon.tech"
+POSTGRES_PASSWORD="YQRt6fgWU3FI"
+ */
